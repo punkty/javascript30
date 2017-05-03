@@ -6,4 +6,4 @@ I will be commenting further on each assignment on my [dev blog](https://punkty.
 
 Day 1
 
-![drum kit](javascript30/thumbs/day1.png)
+![drum kit](/thumbs/day1.png)
