@@ -1,0 +1,37 @@
+:root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+}
+html {
+    background: #0e0e0e;
+    color: #fffff0;
+}
+main {
+    margin: 10px auto;
+    width: 70%;
+    text-align: center;
+}
+.skyImage {
+    width: 80%;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    
+
+}
+.alterColor {
+    color: var(--base);
+}
+
+input{
+    margin: 30px 0;
+}

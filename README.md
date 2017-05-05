@@ -11,3 +11,7 @@ I will be commenting further on each assignment on my [dev blog](https://punkty.
 ## Day 2
 
 ![drum kit](/thumbs/day2.png)
+
+## Day 3
+
+![drum kit](/thumbs/day3.png)
