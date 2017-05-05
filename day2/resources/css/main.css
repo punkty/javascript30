@@ -16,11 +16,11 @@ main {
     max-width: 900px;
 }
 
-@keyframes rotate {
+/*@keyframes rotate {
   100% {
     transform: rotateZ(360deg);
   }
-}
+}*/
 
 .clock {
     width: 20rem;
@@ -98,7 +98,7 @@ main {
     left: 6%;
     z-index: 3;
     transform-origin: 80%;
-    animation: rotate 60s infinite steps(60);
+    /*animation: rotate 60s infinite steps(60);*/
 }
 .hourHand {
     height: 8px;

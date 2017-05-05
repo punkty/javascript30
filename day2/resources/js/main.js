@@ -12,7 +12,6 @@ function soundToggle(){
     } else {
         soundOn = true;
     }
-    console.log(soundOn)
 }
 
 function playTick(){
@@ -20,12 +19,12 @@ function playTick(){
     tick.play()
 }
 function toDegrees(time){
-    let result = ((time / 60) * 360 + 90);
-    if(result == 444){
-        setTimeout(function(){
-            secHand.style.transition = "";
-        }, 1000);
-    }
+    // let result = ((time / 60) * 360 + 90);
+    // if(result == 444){
+    //     setTimeout(function(){
+    //         secHand.style.transition = "";
+    //     }, 1000);
+    // }
     return((time / 60) * 360 + 90)
 }
 
@@ -36,10 +35,10 @@ function calcHours(hours){
 
 function setDate(){
     const now = new Date;
-    // const seconds = now.getSeconds();
+    const seconds = now.getSeconds();
     const minutes = now.getMinutes();
     const hours = now.getHours();
-    // secHand.style.transform = `rotate(${toDegrees(seconds)}deg)`;
+    secHand.style.transform = `rotate(${toDegrees(seconds)}deg)`;
     minHand.style.transform = `rotate(${toDegrees(minutes)}deg)`;
     hourHand.style.transform = `rotate(${calcHours(hours)}deg)`;
     if(soundOn){
