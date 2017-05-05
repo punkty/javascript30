@@ -7,3 +7,7 @@ I will be commenting further on each assignment on my [dev blog](https://punkty.
 ## Day 1
 
 ![drum kit](/thumbs/day1.png)
+
+## Day 2
+
+![drum kit](/thumbs/day2.png)
