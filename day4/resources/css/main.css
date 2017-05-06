@@ -1,0 +1,52 @@
+:root {
+    --yellow:#ffb901;
+    --green:#7fba00;
+    --blue: #01a4ef;
+    --red: #ea4335;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+}
+html {
+    background: url(../images/4.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fffff0;
+}
+main {
+    margin: 10px auto;
+    width: 70%;
+    text-align: center;
+}
+h2, h3, pre {
+    text-align: left;
+}
+
+.codeBlock {
+    background: rgba(14,26,37, 0.7);
+    border-radius: 10px;
+    padding-left: 15px;
+    border: solid #0e1a25 2px;
+    overflow-x: auto;
+    font-family: Courier New, Courier, monospace;
+    margin-bottom: 20px;
+}
+
+.const{
+    color: var(--yellow);
+}
+.string{
+    color: var(--green);
+}
+.variable{
+    color: var(--red);
+}
+.integer{
+    color: var(--blue);
+}

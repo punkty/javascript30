@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Day 3</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="resources/css/main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400,800" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+          <h1>Check the console for answers</h1>
+          <h2>The Data:</h2>
+          <pre class="codeBlock">
+              <code>
+<span class="const">const</span> <span class="variable">inventors</span> = [
+    { first: <span class="string">'Albert'</span>, last: <span class="string">'Einstein'</span>, year: <span class="integer">1879</span>, passed: <span class="integer">1955</span> },
+    { first: <span class="string">'Isaac'</span>, last: <span class="string">'Newton'</span>, year: <span class="integer">1643</span>, passed: <span class="integer">1727</span> },
+    { first: <span class="string">'Galileo'</span>, last: <span class="string">'Galilei'</span>, year: <span class="integer">1564</span>, passed: 1642 },
+    { first: <span class="string">'Marie'</span>, last: <span class="string">'Curie'</span>, year: <span class="integer">1867</span>, passed: <span class="integer">1934</span> },
+    { first: <span class="string">'Johannes'</span>, last: <span class="string">'Kepler'</span>, year: <span class="integer">1571</span>, passed: <span class="integer">1630</span> },
+    { first: <span class="string">'Nicolaus'</span>, last: <span class="string">'Copernicus'</span>, year: <span class="integer">1473</span>, passed: <span class="integer">1543</span> },
+    { first: <span class="string">'Max'</span>, last: <span class="string">'Planck'</span>, year: <span class="integer">1858</span>, passed: <span class="integer">1947</span> },
+    { first: <span class="string">'Katherine'</span>, last: <span class="string">'Blodgett'</span>, year: <span class="integer">1898</span>, passed: <span class="integer">1979</span> },
+    { first: <span class="string">'Ada'</span>, last: <span class="string">'Lovelace'</span>, year: <span class="integer">1815</span>, passed: <span class="integer">1852</span> },
+    { first: <span class="string">'Sarah E.'</span>, last: <span class="string">'Goode'</span>, year: <span class="integer">1855</span>, passed: <span class="integer">1905</span> },
+    { first: <span class="string">'Lise'</span>, last: <span class="string">'Meitner'</span>, year: <span class="integer">1878</span>, passed: <span class="integer">1968</span> },
+    { first: <span class="string">'Hanna'</span>, last: <span class="string">'Hammarström'</span>, year: <span class="integer">1829</span>, passed: <span class="integer">1909</span> }
+];
+
+<span class="const">const</span> <span class="variable">people</span> = [<span class="string">'Beck, Glenn'</span>, <span class="string">'Becker, Carl'</span>, <span class="string">'Beckett, Samuel'</span>, <span class="string">'Beddoes, Mick'</span>,
+    <span class="string">'Beecher, Henry'</span>, <span class="string">'Beethoven, Ludwig'</span>, <span class="string">'Begin, Menachem'</span>, <span class="string">'Belloc, Hilaire'</span>,
+     <span class="string">'Bellow, Saul'</span>, <span class="string">'Benchley, Robert'</span>, <span class="string">'Benenson, Peter'</span>, <span class="string">'Ben-Gurion, David'</span>, 
+     <span class="string">'Benjamin, Walter'</span>,<span class="string">'Benn, Tony'</span>, <span class="string">'Bennington, Chester'</span>, <span class="string">'Benson, Leana'</span>, <span class="string">'Bent,
+    Silas'</span>, <span class="string">'Bentsen, Lloyd'</span>, <span class="string">'Berger, Ric'</span>, <span class="string">'Bergman, Ingmar'</span>, <span class="string">'Berio, Luciano'</span>,
+     <span class="string">'Berle, Milton'</span>, <span class="string">'Berlin, Irving'</span>, <span class="string">'Berne, Eric'</span>, <span class="string">'Bernhard, Sandra'</span>, <span class="string">'Berra,
+      Yogi'</span>, <span class="string">'Berry, Halle'</span>, <span class="string">'Berry, Wendell'</span>, <span class="string">'Bethea, Erin'</span>, <span class="string">'Bevan, Aneurin'</span>, 
+      <span class="string">'Bevel, Ken'</span>, <span class="string">'Biden, Joseph'</span>, <span class="string">'Bierce, Ambrose'</span>, <span class="string">'Biko, Steve'</span>, <span class="string">'Billings, 
+      Josh'</span>, <span class="string">'Biondo, Frank'</span>, <span class="string">'Birrell, Augustine'</span>, <span class="string">'Black, Elk'</span>, <span class="string">'Blair, Robert'</span>, <span class="string">'Blair, Tony'</span>, <span class="string">'Blake, William'</span>
+];
+
+<span class="const">const</span> <span class="variable">data</span> = [
+        <span = class="string">'car'</span>, <span = class="string">'car'</span>, <span = class="string">'truck'</span>, <span = class="string">'truck'</span>, <span = class="string">'bike'</span>,<span = class="string">'walk'</span>, <span = class="string">'car'</span>, <span = class="string">'van'</span>, <span = class="string">'bike'</span>, <span = class="string">'walk'</span>, <span = class="string">'car'</span>, <span = class="string">'van'</span>, <span = class="string">'car'</span>, <span = class="string">'truck'</span>
+];
+
+</code>
+          </pre>
+          <h3>1. Filter the list of inventors for those who were born in the 1500's</h3>
+          <h3>2. Give an array of the inventors' first and last names</h3>
+          <h3>3. Sort the inventors by birthdate, oldest to youngest</h3>
+          <h3>4. How many years did all the inventors live?</h3>
+          <h3>5. Sort the inventors by years lived</h3>
+          <h3>6. Create a list of Boulevards in Paris that contain 'de' anywhere in the name from 
+                <a href="https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris">here</a></h3>
+          <h3>7. Sort the people alphabetically by last name</h3>
+          <h3>8. Sum up the instances of each of these</h3>
+        </main>
+    </body>
+    <script src="resources/js/main.js"></script>
+</html>
+
+
+
+
+
+
+
+
