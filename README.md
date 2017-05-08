@@ -20,11 +20,11 @@ I will be commenting further on each assignment on my [dev blog](https://punkty.
 
 ![Array Cardio part 1](/thumbs/day4.png)
 
-<!--## Day 5: Array Cardio part 1
+## Day 5: Flex Panels with CSS Variables and JS
 
-![drum kit](/thumbs/day5.png)
+![Flex Panels with CSS Variables and JS](/thumbs/day5.png)
 
-## Day 6: Array Cardio part 1
+<!--## Day 6: Array Cardio part 1
 
 ![drum kit](/thumbs/day6.png)
 
@@ -122,4 +122,4 @@ I will be commenting further on each assignment on my [dev blog](https://punkty.
 
 ## Day 30: Array Cardio part 1
 
-![fillin](/thumbs/day30.png)-->
+![fillin](/thumbs/day30.png)-->-->
