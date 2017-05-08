@@ -32,9 +32,10 @@ html {
     text-align: center;
     align-items: center;
     transition:
-        font-size 0.7s cubic-bezier(0.61,-0.19, 0.7, -0.11),
-        flex 0.7s cubic-bezier(0.61,-0.19, 0.7, -0.11),
+        font-size 0.7s cubic-bezier(0.59,-0.26, 0.56, 1.11),
+        flex 0.7s cubic-bezier(0.59,-0.26, 0.56, 1.11),
         background 0.2s;
+    /*transition-timing-function: cubic-bezier(0.59,-0.26, 0.56, 1.11);*/
     font-size: 20px;
     background-size: cover;
     background-position: center;
@@ -84,7 +85,7 @@ html {
 }
 
 .panel.open {
-    flex: 5;
+    flex: 3.5;
     font-size: 40px;
 }
 
