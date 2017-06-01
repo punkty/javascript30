@@ -28,9 +28,9 @@ I will be commenting further on each assignment on my [dev blog](https://punkty.
 
 ![Ajax Type Ahead](/thumbs/day6.png)
 
-<!--## Day 7: Array Cardio part 1
+## Day 7: Array Cardio Part 2
 
-![drum kit](/thumbs/day7.png)-->
+![Array Cardio Part 2](/thumbs/day7.png)
 
 <!--## Day 8: Array Cardio part 1
 
