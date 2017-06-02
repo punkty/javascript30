@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 200;
+}
+html {
+    background: url(../images/2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+main {
+    margin: 0 auto;
+    max-width: 900px;
+}
+

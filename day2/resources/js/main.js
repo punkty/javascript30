@@ -1,4 +1,4 @@
-'use_strict';
+'use strict';
 
 const secHand = document.querySelector('.secHand');
 const minHand = document.querySelector('.minHand');

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Day 7</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="resources/css/styles.css" rel="stylesheet">
+        <link href="resources/css/prism.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata:200,400,800" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <pre>
+                <code class="language-javascript">
+// ## Array Cardio Day 2
+const people = [
+    { name: 'Wes', year: 1988 },
+    { name: 'Kait', year: 1986 },
+    { name: 'Irv', year: 1970 },
+    { name: 'Lux', year: 2015 }
+];
+const comments = [
+    { text: 'Love this!', id: 523423 },
+    { text: 'Super good', id: 823423 },
+    { text: 'You are the best', id: 2039842 },
+    { text: 'Ramen is my fav food ever', id: 123523 },
+    { text: 'Nice Nice Nice!', id: 542328 }
+];
+// Some and Every Checks
+// Array.prototype.some() // is at least one person 19 or older?
+
+// const olderThanNineteen = people.some(function(person){
+//     let currentYear = new Date().getFullYear()
+//     if (currentYear - person.year >= 19){
+//         return true
+//     }
+// });
+
+//rewritten the "cool" way
+//some checks for at least one
+const olderThanNineteen = people.some(person => ((new Date()).getFullYear()) - person.year >= 19);
+
+// Array.prototype.every() // is everyone 19 or older?
+//some checks all
+const allOlderThanNineteen = people.every(person => ((new Date()).getFullYear()) - person.year >= 19);
+console.log({olderThanNineteen})
+
+
+// Array.prototype.find()
+// Find is like filter, but instead returns just the one you are looking for
+// find the comment with the ID of 823423
+// const comment = comments.find(function(comment){
+//     if(comment.id === 832423) {
+//         return true
+//     }
+// });
+
+const comment = comments.find(comment => ((comment.id === 823423)));
+console.log(comment)
+
+// Array.prototype.findIndex()
+// Find the comment with this ID
+// delete the comment with the ID of 823423
+
+const index = comments.findIndex(comments => comment.id === 823423);
+
+// comments.splice(index, 1);
+
+const newComments = [
+    ...comments.slice(0,index),
+    ...comments.slice(index + 1)
+];
+                </code>
+            </pre>
+        </main>
+    </body>
+    <script src="resources/js/main.js"></script>
+    <script src="resources/js/prism.js"></script>
+</html>
