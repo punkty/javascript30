@@ -32,13 +32,13 @@ I will be commenting further on each assignment on my [dev blog](https://punkty.
 
 ![Array Cardio Part 2](/thumbs/day7.png)
 
-<!--## Day 8: Array Cardio part 1
+## Day 8: Fun with HTML5 Canvas
 
-![drum kit](/thumbs/day8.png)-->
+![Fun with HTML5 Canvas](/thumbs/day8.png)
 
-<!--## Day 9: Array Cardio part 1
+## Day 9: Must Know Dev Tool Tricks
 
-![drum kit](/thumbs/day9.png)-->
+![Must Know Dev Tool Tricks](/thumbs/day9.png)
 
 <!--## Day 10: Array Cardio part 1
 
