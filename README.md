@@ -40,21 +40,21 @@ I will be commenting further on each assignment on my [dev blog](https://punkty.
 
 ![Must Know Dev Tool Tricks](/thumbs/day9.png)
 
-<!--## Day 10: Array Cardio part 1
+## Day 10: Hold Shift to Check Multiple Checkboxes
 
-![drum kit](/thumbs/day10.png)-->
+![Hold Shift to Check Multiple Checkboxes](/thumbs/day10.png)
 
-<!--## Day 11: Array Cardio part 1
+<!--## Day 11: Custom HTML5 Video Player
 
-![drum kit](/thumbs/day11.png)-->
+![Custom HTML5 Video Player](/thumbs/day11.png)-->
 
-<!--## Day 12: Array Cardio part 1
+<!--## Day 12: Key Sequence Detection(KONAMI CODE)
 
-![drum kit](/thumbs/day12.png)-->
+![Key Sequence Detection(KONAMI CODE)](/thumbs/day12.png)-->
 
-<!--## Day 13: Array Cardio part 1
+<!--## Day 13: Slide in on Scroll
 
-![drum kit](/thumbs/day13.png)-->
+![Slide in on Scroll](/thumbs/day13.png)-->
 
 <!--## Day 14: Array Cardio part 1
 

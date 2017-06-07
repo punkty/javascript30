@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+}
+html {
+    background: url(../images/10.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+main {
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+article {
+    margin-top: 45px;
+}
+h3 {
+    border: solid black .5px;
+    padding: 10px;
+    background: #fffff0;
+}
+.item {
+    border-left: solid black .5px;
+    border-right: solid black .5px;
+    border-bottom: solid black .5px;
+    background: #fffff0;
+}
+
+.item > input[type="checkbox"]{
+    display: inline-block;
+    margin: 5px;
+}
+
+.item > p {
+    display: inline-block;
+    padding: 5px;
+}
